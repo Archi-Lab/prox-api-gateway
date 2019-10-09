@@ -52,6 +52,10 @@ zuul:
       path: /profile/studyCourses/**
       service-id: module-service
       strip-prefix: false
+    proposal:
+      path: /proposal/**
+      service-id: proposal-service
+      strip-prefix: false
     proposals:
       path: /proposals/**
       service-id: proposal-service
