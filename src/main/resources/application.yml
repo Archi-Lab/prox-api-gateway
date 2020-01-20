@@ -65,15 +65,15 @@ zuul:
       service-id: proposal-service
       strip-prefix: false
     professor-profile:
-      path: /user-profile/professor
+      path: /userprofile/professor
       service-id: user-profile-service
       strip-prefix: false
     professor-edit-profile:
-      path: /user-profile/professor/**
+      path: /userprofile/professor/**
       service-id: user-profile-service
       strip-prefix: false
     professor-profile-findByLastName:
-      path: /user-profile/professor/findByLastName
+      path: /userprofile/professor/findByLastName
       service-id: user-profile-service
       strip-prefix: false
   sensitiveHeaders: Cookie,Set-Cookie
