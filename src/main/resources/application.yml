@@ -65,15 +65,11 @@ zuul:
       service-id: proposal-service
       strip-prefix: false
     professor-profile:
-      path: /userprofile/professors
-      service-id: user-profile-service
-      strip-prefix: false
-    professor-edit-profile:
       path: /userprofile/professors/**
       service-id: user-profile-service
       strip-prefix: false
     professor-profile-findByLastName:
-      path: /userprofile/professors/findByLastName
+      path: /userprofile/professors/findByLastName/**
       service-id: user-profile-service
       strip-prefix: false
     professor-profile-findByKeycloakId:
@@ -81,7 +77,7 @@ zuul:
       service-id: user-profile-service
       strip-prefix: false
     student-profile:
-      path: /userprofile/students
+      path: /userprofile/students/**
       service-id: user-profile-service
       strip-prefix: false
     student-profile-id:
