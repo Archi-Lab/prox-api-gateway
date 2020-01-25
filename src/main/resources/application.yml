@@ -84,4 +84,8 @@ zuul:
       path: /userprofile/students/**
       service-id: user-profile-service
       strip-prefix: false
+    student-profile-keycloakId:
+      path: /userprofile/students/get/**
+      service-id: user-profile-service
+      strip-prefix: false
   sensitiveHeaders: Cookie,Set-Cookie
