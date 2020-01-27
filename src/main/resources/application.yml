@@ -69,7 +69,7 @@ zuul:
       service-id: user-profile-service
       strip-prefix: false
     professor-profile-findByLastName:
-      path: /userprofile/professors/findByLastName/**
+      path: /userprofile/professors/findByName/**
       service-id: user-profile-service
       strip-prefix: false
     professor-profile-findByKeycloakId:
