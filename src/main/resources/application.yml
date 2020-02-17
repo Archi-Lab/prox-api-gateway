@@ -88,4 +88,8 @@ zuul:
       path: /userprofile/students/get/**
       service-id: user-profile-service
       strip-prefix: false
+    userprofile-studycourses:
+      path: /userprofile/studyCourses/**
+      service-id: user-profile-service
+      strip-prefix: false
   sensitiveHeaders: Cookie,Set-Cookie
